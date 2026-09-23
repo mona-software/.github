@@ -22,6 +22,8 @@ Stack tụi em đang chạy thật trên sản phẩm của chính mình: **http
 | [`mona-llms-txt`](https://github.com/themonagroup/mona-llms-txt) | Sinh llms.txt theo chuẩn llmstxt.org |
 | [`mona-ai-crawler-check`](https://github.com/themonagroup/mona-ai-crawler-check) | Xem GPTBot, ClaudeBot, Gemini có đọc được website không |
 
+Dùng ngay không cần cài: **[congcuseo.mona.media](https://congcuseo.mona.media/)** (32 công cụ SEO miễn phí) · Plugin WordPress: **[plugin.mona.software](https://plugin.mona.software/)** (15 plugin MONA: Shield, Multilingual, SEO, MCP, thanh toán VNPAY/MoMo/MONA Pay, KiotViet, Odoo…)
+
 ## AI Lab
 
 | Repo | Là gì |
