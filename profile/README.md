@@ -1,59 +1,65 @@
-<p align="center"><img src="https://monapay.vn/brand/mona-logo-the-mona-dark.svg" width="320" alt="THE MONA"></p>
+# MONA Software
 
-# The MONA Group
+MONA Software builds the developer tools for MONA Pay, MONA Cloud, MONA Mail and MONA Domain: SDKs, CLIs, MCP servers and plugins that let developers and AI agents accept payments, deploy apps, send email and register domains in Vietnam.
 
-**Web · Phần mềm · Hosting · Thanh toán · AI** cho doanh nghiệp Việt Nam từ 2016. Hơn 14.000 dự án, 85% khách quay lại.
+## Packages
 
-- **Mona.Media**: thiết kế web, SEO, GEO, marketing · https://mona.media
-- **Mona.Software**: phần mềm theo yêu cầu (CRM/ERP/LMS/F&B…) · https://mona.software
-- **Mona.Host / MONA Cloud**: hosting, VPS, deploy app, domain · https://monacloud.vn
-- **MONA Pay**: cổng thanh toán & API ngân hàng, miễn phí, cho cả developer lẫn AI agent · https://monapay.vn
+### MONA Pay · [monapay.vn](https://monapay.vn)
 
-Stack tụi em đang chạy thật trên sản phẩm của chính mình: **https://mona.media/cong-nghe/** · Hub mã nguồn mở: **https://mona.media/mona-open/**
+| Package | Registry | Description |
+|---|---|---|
+| `@monapay/node` | [npm](https://www.npmjs.com/package/@monapay/node) | Node.js SDK |
+| `@monapay/cli` | [npm](https://www.npmjs.com/package/@monapay/cli) | Command-line tool for QR codes, transactions and local webhook testing |
+| `monapay-mcp` | [npm](https://www.npmjs.com/package/monapay-mcp) | MCP server for AI coding agents |
+| `monapay` | [PyPI](https://pypi.org/project/monapay/) | Python SDK |
+| `monapay/php-sdk` | [Packagist](https://packagist.org/packages/monapay/php-sdk) | PHP SDK |
+| `monapay/laravel` | [Packagist](https://packagist.org/packages/monapay/laravel) | Laravel integration |
+| `github.com/mona-software/monapay-go` | [pkg.go.dev](https://pkg.go.dev/github.com/mona-software/monapay-go) | Go SDK |
+| `mona-pay-for-woocommerce` | [WordPress.org](https://wordpress.org/plugins/mona-pay-for-woocommerce/) | WooCommerce payment gateway with VietQR bank transfers |
+| `vn.monapay/monapay-mcp` | [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=vn.monapay/monapay-mcp) | Registry entry for `monapay-mcp` |
 
-## SEO & GEO: đồ nghề của máy làm SEO mona.media
+### MONA Cloud · [monacloud.vn](https://monacloud.vn)
 
-| Repo | Là gì |
-|---|---|
-| [`mona-seo-check-vi`](https://github.com/mona-software/mona-seo-check-vi) | Chấm tự động on-page SEO bài tiếng Việt (12 nhóm tiêu chí) |
-| [`mona-vi-prose-qc`](https://github.com/mona-software/mona-vi-prose-qc) | Soi nhịp văn tiếng Việt + cụm "văn AI" sáo rỗng |
-| [`mona-serp-media-check`](https://github.com/mona-software/mona-serp-media-check) | Kiểm trang đủ điều kiện lên khối Hình ảnh / Video của Google |
-| [`mona-geo-visibility`](https://github.com/mona-software/mona-geo-visibility) | Đo thương hiệu có được ChatGPT / Gemini / Claude nhắc tên không |
-| [`mona-llms-txt`](https://github.com/mona-software/mona-llms-txt) | Sinh llms.txt theo chuẩn llmstxt.org |
-| [`mona-ai-crawler-check`](https://github.com/mona-software/mona-ai-crawler-check) | Xem GPTBot, ClaudeBot, Gemini có đọc được website không |
+| Package | Registry | Description |
+|---|---|---|
+| `monacloud-mcp` | [npm](https://www.npmjs.com/package/monacloud-mcp) | MCP server for apps, databases, domains, the VND wallet, MONA Pay and MONA Mail |
+| `monacloud` | [npm](https://www.npmjs.com/package/monacloud) | CLI that adds MONA Cloud agent rules and MCP config to a project and deploys apps |
+| `monacloud-cloud-sdk` | [npm](https://www.npmjs.com/package/monacloud-cloud-sdk) | Node.js SDK for the compute API |
+| `monacloud` | [PyPI](https://pypi.org/project/monacloud/) | Python SDK for the compute API |
+| `vn.monacloud/monacloud-mcp` | [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=vn.monacloud/monacloud-mcp) | Registry entry for `monacloud-mcp` |
 
-Dùng ngay không cần cài: **[congcuseo.mona.media](https://congcuseo.mona.media/)** (32 công cụ SEO miễn phí) · Plugin WordPress: **[plugin.mona.software](https://plugin.mona.software/)** (15 plugin MONA: Shield, Multilingual, SEO, MCP, thanh toán VNPAY/MoMo/MONA Pay, KiotViet, Odoo…)
+### MONA Mail · [monamail.vn](https://monamail.vn)
 
-## AI Lab
+| Package | Registry | Description |
+|---|---|---|
+| `monamail` | [npm](https://www.npmjs.com/package/monamail) | Node.js SDK |
+| `monamail` | [PyPI](https://pypi.org/project/monamail/) | Python SDK |
+| `mona/monamail` | [Packagist](https://packagist.org/packages/mona/monamail) | PHP SDK |
 
-| Repo | Là gì |
-|---|---|
-| [`mona-ai-lab-bench`](https://github.com/mona-software/mona-ai-lab-bench) | Bộ test mở chấm LLM trên việc thật của doanh nghiệp Việt |
-| [`mona-vn-normalize`](https://github.com/mona-software/mona-vn-normalize) | Chuẩn hoá tiếng Việt cho TTS/NLP |
-| [`mona-agent-templates`](https://github.com/mona-software/mona-agent-templates) | Kho template trợ lý AI riêng cho doanh nghiệp |
+### MONA Domain · [monadomain.vn](https://monadomain.vn)
 
-## MONA Cloud & MONA Mail
+| Package | Registry | Description |
+|---|---|---|
+| `monadomain-mcp` | [npm](https://www.npmjs.com/package/monadomain-mcp) | MCP server for searching, reserving and buying domains (runs `monacloud-mcp`) |
+| `vn.monadomain/monadomain-mcp` | [MCP Registry](https://registry.modelcontextprotocol.io/v0/servers?search=vn.monadomain/monadomain-mcp) | Registry entry for `monadomain-mcp` |
 
-| Repo | Là gì |
-|---|---|
-| [`monacloud-mcp`](https://github.com/mona-software/monacloud-mcp) | MCP server: deploy app, Postgres/Auth/Storage, ví VND cho AI agent |
-| [`monacloud-cli`](https://github.com/mona-software/monacloud-cli) | `npx monacloud init --recipe`, tạo VPS/DB |
-| [`monacloud-node`](https://github.com/mona-software/monacloud-node) · [`monacloud-python`](https://github.com/mona-software/monacloud-python) | SDK chính thức |
-| [`monamail`](https://github.com/mona-software/monamail) · [`monamail-php`](https://github.com/mona-software/monamail-php) | Email API cho phần mềm và AI agent, trả VND |
+## Open-source tools
 
-## MONA Pay
+- [`mona-seo-check-vi`](https://github.com/mona-software/mona-seo-check-vi): scores the on-page SEO of a Vietnamese article against an automated checklist.
+- [`mona-vi-prose-qc`](https://github.com/mona-software/mona-vi-prose-qc): measures sentence rhythm in Vietnamese text and flags patterns common in machine-generated prose.
+- [`mona-serp-media-check`](https://github.com/mona-software/mona-serp-media-check): checks whether a page has the image, video and Open Graph signals used for Google Images and video results.
+- [`mona-geo-visibility`](https://github.com/mona-software/mona-geo-visibility): measures how often a brand is mentioned in answers from ChatGPT, Gemini and Claude.
+- [`mona-llms-txt`](https://github.com/mona-software/mona-llms-txt): generates `llms.txt` and `llms-full.txt` for a website from its sitemap.
+- [`mona-ai-crawler-check`](https://github.com/mona-software/mona-ai-crawler-check): checks whether AI crawlers can fetch a page and read its content.
+- [`mona-ai-lab-bench`](https://github.com/mona-software/mona-ai-lab-bench): benchmark for evaluating LLMs on Vietnamese customer-facing business tasks.
+- [`mona-vn-normalize`](https://github.com/mona-software/mona-vn-normalize): spells out numbers, dates, money and abbreviations in Vietnamese text for TTS and NLP.
+- [`mona-edu-schema`](https://github.com/mona-software/mona-edu-schema): generates and validates JSON-LD for Vietnamese schools, training centers and teachers.
+- [`mona-thoi-khoa-bieu`](https://github.com/mona-software/mona-thoi-khoa-bieu): TypeScript library that builds weekly timetables for Vietnamese schools and training centers.
+- [`mona-tron-de`](https://github.com/mona-software/mona-tron-de): library and CLI that shuffles a multiple-choice exam into numbered variants with an answer key.
+- [`mona-agent-templates`](https://github.com/mona-software/mona-agent-templates): templates for self-hosted AI assistants set up by a coding agent.
 
-> MONA Pay là API ngân hàng và dịch vụ xác nhận thanh toán tự động của The MONA Group. Doanh nghiệp Việt Nam nhận và xác nhận tiền chuyển khoản theo thời gian thực qua tài khoản ảo (VA), VietQR, webhook và Telegram. Lập trình viên lẫn AI agent tích hợp được trong vài phút.
+## Contact
 
-| Repo | Là gì |
-|---|---|
-| [`monapay-mcp`](https://github.com/mona-software/monapay-mcp) | MCP server cho Claude Code / Cursor / Codex |
-| SDK | [Node](https://github.com/mona-software/monapay-node) · [Python](https://github.com/mona-software/monapay-python) · [PHP](https://github.com/mona-software/monapay-php) · [Go](https://github.com/mona-software/monapay-go) · [Java](https://github.com/mona-software/monapay-java) · [.NET](https://github.com/mona-software/monapay-dotnet) · [Ruby](https://github.com/mona-software/monapay-ruby) · [Rust](https://github.com/mona-software/monapay-rust) · [Dart](https://github.com/mona-software/monapay-dart) · [Elixir](https://github.com/mona-software/monapay-elixir) |
-| [`monapay-cli`](https://github.com/mona-software/monapay-cli) | CLI: `monapay webhook listen`, tạo QR, tra giao dịch |
-| [`woocommerce-monapay`](https://github.com/mona-software/woocommerce-monapay) | Plugin WooCommerce: chuyển khoản VietQR tự xác nhận |
-| [`monapay-connectors`](https://github.com/mona-software/monapay-connectors) | Nối Shopify/Haravan/Sapo/KiotViet/Nhanh/Pancake/WooCommerce |
-| [`monapay-examples`](https://github.com/mona-software/monapay-examples) | Ví dụ Next.js · Express · NestJS · Laravel · Django · FastAPI · Spring Boot · Go |
+info@themona.global · [mona.media](https://mona.media)
 
-**Bắt đầu 5 phút:** đăng ký tại https://my.monapay.vn/auth?mode=register → tạo API key → đọc https://monapay.vn/docs (máy đọc: https://monapay.vn/llms.txt · https://monapay.vn/openapi.json).
-
-Hotline 1900 636 648 · info@themona.global · TP. Hồ Chí Minh, Việt Nam
+**MONA Software is a member of The MONA Group.**
