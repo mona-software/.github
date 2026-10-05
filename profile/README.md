@@ -60,6 +60,6 @@ MONA Software builds the developer tools for MONA Pay, MONA Cloud, MONA Mail and
 
 ## Contact
 
-info@themona.global · [mona.media](https://mona.media)
+info@themona.global · [mona.software](https://mona.software)
 
 **MONA Software is a member of The MONA Group.**
