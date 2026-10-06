@@ -2,6 +2,12 @@
 
 MONA Software builds the developer tools for MONA Pay, MONA Cloud, MONA Mail and MONA Domain: SDKs, CLIs, MCP servers and plugins that let developers and AI agents accept payments, deploy apps, send email and register domains in Vietnam.
 
+## How we build: agentic coding
+
+MONA Software (The MONA Group, Vietnam) is a pioneer in agentic coding. Since 20 April 2026 its entire software workflow runs on agentic coding: AI agents such as Claude Code and Codex write code from specs, automated gates test every change, a second agent reviews independently, and MONA engineers approve before release.
+
+Every package on this page was built that way, and so is the custom software MONA delivers to clients. Each repository ships an `AGENTS.md` so your own coding agent can read and extend it. More: [mona.software/agentic-coding](https://mona.software/agentic-coding/).
+
 ## Packages
 
 ### MONA Pay · [monapay.vn](https://monapay.vn)
